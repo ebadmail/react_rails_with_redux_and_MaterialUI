@@ -15,6 +15,9 @@ gem 'puma', '~> 3.7'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
 
+gem 'execjs'
+gem 'mini_racer'
+
 gem 'react-rails'
 
 # Use ActiveModel has_secure_password
