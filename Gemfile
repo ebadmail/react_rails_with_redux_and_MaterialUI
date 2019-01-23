@@ -23,6 +23,10 @@ gem 'jquery-rails'
 gem 'materialize-sass'
 gem 'sass'
 
+
+#Security issue
+gem "sprockets", ">= 3.7.2"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
