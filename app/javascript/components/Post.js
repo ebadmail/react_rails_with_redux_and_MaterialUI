@@ -9,15 +9,16 @@ function post(state = null, action) {
 const reducer = combineReducers({ post });
 
 function PostComponent(props) {
-  const { id, body } = props;
+  const { id, body,footer } = props;
 
   return (
     <div>
       <h1>Post</h1>
       <div>{id}</div>
       <div>{body}</div>
+      <div>{footer}</div>
     </div>
-  );
+  ); 
 }
 
 function mapStateToProps(state) {

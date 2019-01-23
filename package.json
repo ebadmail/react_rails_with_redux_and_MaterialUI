@@ -2,16 +2,33 @@
   "name": "react_rails_with_redux_example",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "<=7.0.0-beta.55",
+    "@material-ui/core": "^3.9.0",
+    "@material-ui/icons": "^3.0.2",
     "@rails/webpacker": "^3.2.2",
     "babel-preset-react": "^6.24.1",
+    "material-ui": "^0.20.2",
+    "material-ui-icons": "^1.0.0-beta.36",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
     "react_ujs": "^2.4.4",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "redux-form": "^8.1.0",
+    "redux-form-website-template": "^1.0.6"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.0.0"
+    "babel-preset-env": "^1.6.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "2.11.2"
+  },
+  "testEnvironment": "node",
+  "scripts": {
+    "start": "./bin/webpack-dev-server",
+    "test": "jest --watch"
   }
 }

@@ -19,6 +19,9 @@ gem 'execjs'
 gem 'mini_racer'
 
 gem 'react-rails'
+gem 'jquery-rails'
+gem 'materialize-sass'
+gem 'sass'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

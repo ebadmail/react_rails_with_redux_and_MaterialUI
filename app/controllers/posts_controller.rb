@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
   def show
-    render component: 'Post', props: { post: { id: params[:id], body: 'foo bar' } }, prerender: true
+    render component: 'Parent', props: { post: { id: params[:id], body: 'foo bar' ,footer: 'footer test'} }, prerender: true
   end
 end
