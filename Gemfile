@@ -23,6 +23,7 @@ gem 'jquery-rails'
 gem 'materialize-sass'
 gem 'sass'
 
+gem 'codecov', :require => false, :group => :test
 
 #Security issue
 gem "sprockets", ">= 3.7.2"
