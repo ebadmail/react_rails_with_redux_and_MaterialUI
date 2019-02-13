@@ -23,6 +23,10 @@ gem 'jquery-rails'
 gem 'materialize-sass'
 gem 'sass'
 
+gem 'simplecov'
+gem 'mocha'
+gem 'test-unit'
+gem 'rake'
 gem 'codecov', :require => false, :group => :test
 
 #Security issue
