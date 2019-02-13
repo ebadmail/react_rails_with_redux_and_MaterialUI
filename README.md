@@ -9,5 +9,7 @@ Bundle install && yarn install
 
 rails s && yarn start
 
-yarn test
+yarn test // for javascript unit testing
 
+
+http://0.0.0.0:3000/posts/1  I know it's weird!
